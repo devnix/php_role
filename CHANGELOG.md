@@ -9,8 +9,14 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 ### Changed
 ### Fixed
 - *[#29](https://github.com/idealista/php_role/pull/29) Fix checking composer version if the current user is root* @devnix
+- *[#42](https://github.com/idealista/php_role/pull/42) Replace deprecated `include` by a `include_tasks`* @devnix
 
-## [3.1.2](https://github.com/idealista/php_role/tree/3.1.3) (2022-05-23)
+## [3.1.4](https://github.com/idealista/php_role/tree/3.1.4) (2022-06-19)
+## [Full Changelog](https://github.com/idealista/php_role/compare/3.1.3...3.1.4)
+### Changed
+- *[#38](https://github.com/idealista/php_role/issues/38) Change source download.
+
+## [3.1.3](https://github.com/idealista/php_role/tree/3.1.3) (2022-05-23)
 ## [Full Changelog](https://github.com/idealista/php_role/compare/3.1.2...3.1.3)
 ### Fixed
 - *[#35](https://github.com/idealista/php_role/issues/35) [BUG] php_reinstall flag is not working properly* @emepege
@@ -19,6 +25,8 @@ This project adheres to [Semantic Versioning](http://semver.org/) and [Keep a ch
 ## [Full Changelog](https://github.com/idealista/php_role/compare/3.1.1...3.1.2)
 ### Added
 - *[#32](https://github.com/idealista/php_role/issues/32) Add option arg in extension pecl.
+
+- *[41](https://github.com/idealista/php_role/pull/41) Add target to make module to avoid `TypeError: 'NoneType' object is not iterable` error* @devnix
 
 ## [3.1.1](https://github.com/idealista/php_role/tree/3.1.1) (2022-03-04)
 ## [Full Changelog](https://github.com/idealista/php_role/compare/3.1.0...3.1.1)
